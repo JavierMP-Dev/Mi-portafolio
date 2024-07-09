@@ -369,19 +369,21 @@
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
+            <h2>CONTACT</h2>
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                    <form action="https://formspree.io/f/xleqyzgd" method="post">
+                        <input type="text" name="nombre" placeholder="Name">
+                        <input type="text" name="telefono" placeholder="Phone number">
+                        <input type="text" name="correo" placeholder="email">
+                        <input type="text" name="tema" placeholder="Issue">
+                        <textarea name="mensaje" id=""  cols="30" rows="10" placeholder="Message"></textarea>
+                        <button>
+                            Send<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
@@ -394,7 +396,7 @@
                             </li>
                             <li>
                                 <i class="fa-solid fa-mobile-screen"></i>
-                                Llama: 712-206-9005
+                                Call:
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i>
