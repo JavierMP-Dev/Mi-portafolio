@@ -25,7 +25,13 @@
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PROJECTS</a></li>
                     <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
-                    <li><a href="index.html" onclick="seleccionar()"><i class="fa fa-flag" aria-hidden="true"></i></a></li>
+                    <li><a href="index.html" onclick="seleccionar()">
+                        <div class="tooltip-container">
+                            <i class="fa fa-flag" aria-hidden="true"></i>
+                            <span class="tooltip">Spanish</span>
+                        </div>
+                    </a>
+                    </li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -370,7 +376,7 @@
         <div class="contenido-seccion">
             <h2>CONTACT</h2>
             <div class="fila">
-                <!-- Formulario -->
+                <!-- Formulario para contacto con clientes-->
                 <div class="col">
                     <form action="https://formspree.io/f/xleqyzgd" method="post">
                         <input type="text" name="nombre" placeholder="Name">
