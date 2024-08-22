@@ -66,6 +66,9 @@ html{
     display: flex;
     align-items: center;
 }
+
+    
+
 .inicio .contenido-banner{
     padding: 20px;
     background-color: #1e2326;
@@ -765,3 +768,12 @@ footer .arriba{
   }
   
 /*fin de la clase tool tip*/
+
+
+/*mapa de google*/
+@media (max-width: 480px){
+    .mapa_google{
+        width: 410px;
+        height: 450px;
+    }
+}
