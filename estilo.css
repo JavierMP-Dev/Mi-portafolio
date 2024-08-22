@@ -777,3 +777,8 @@ footer .arriba{
         height: 450px;
     }
 }
+
+/*clase para justificar el texto*/
+.justificar{
+    text-align: justify;
+}
