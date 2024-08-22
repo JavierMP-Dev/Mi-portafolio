@@ -773,7 +773,7 @@ footer .arriba{
 /*mapa de google*/
 @media (max-width: 480px){
     .mapa_google{
-        width: 410px;
+        width: 100%;
         height: 450px;
     }
 }
