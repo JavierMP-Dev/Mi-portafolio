@@ -782,3 +782,9 @@ footer .arriba{
 .justificar{
     text-align: justify;
 }
+
+.git_l{
+    padding-top: 55px;
+    font-size: 40px; 
+    color: rgb(255, 255, 255);
+}
